@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1518971543220
-Build-Jdk: 1.8.0_121
+Bnd-LastModified: 1518974170022
+Build-Jdk: 1.8.0_151
 Built-By: Chandu
 Bundle-Description: Maven Multimodule project for Serve Pro.
 Bundle-ManifestVersion: 2
@@ -8,8 +8,8 @@ Bundle-Name: Serve Pro Bundle
 Bundle-SymbolicName: org.bs.serveaem
 Bundle-Version: 0.0.1.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
-Export-Package: org.bs.serveaem.models;uses:="javax.inject,org.apache.sl
- ing.api.resource,org.apache.sling.models.annotations";version="0.0.1"
+Export-Package: org.bs.serveaem.models;version="0.0.1";uses:="javax.inje
+ ct,org.apache.sling.api.resource,org.apache.sling.models.annotations"
 Import-Package: javax.inject,org.apache.sling.api.resource;version="[2.1
  0,3)",org.apache.sling.models.annotations;version="[1.4,2)"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
